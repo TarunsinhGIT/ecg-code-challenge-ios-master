@@ -1,2 +1,1 @@
-# ecg-code-challenge-ios-master
-Main Code
+Please continue [here](Readme.pdf)
