@@ -2,12 +2,11 @@ import Combine
 import SwiftUI
 
 struct AdView: View {
-
     var title: String
     var imageSource: String
     var priceAmount: Int
-    var Advertising: String
-    @State var showAddLabel = true
+    var Advertising: String//Label for Advertising
+    @State var showAddLabel = true // Toggle for Advertising label
     @State private var image: UIImage?
     @State private var task: AnyCancellable?
 
@@ -42,7 +41,6 @@ struct AdView: View {
                             .background(Color.green)
                             .frame(height: 30.0)
                             .clipShape(Capsule())
-                        
                     } else {
                         Text(Advertising)
                             .hidden()

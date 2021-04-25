@@ -5,13 +5,13 @@ import Advertisement
 struct ContentView: View {
     
     @StateObject var model: ContentModel
-    @ObservedObject var randomAdd = RandomAdd()
+    @ObservedObject var randomAdd = RandomAdd()//Observable object for Random Advertising
     var body: some View {
         switch model.result {
         case .none:
             Text("Loading")
                 .onAppear {
-                    randomAdd.setobj()
+                    randomAdd.setobj()//Calling Random Advertising framework 
                     model.fetch()
                 }
             
@@ -22,9 +22,9 @@ struct ContentView: View {
             ScrollView(.vertical, showsIndicators: true) {
                 LazyVStack {
                     AdView(
-                        title: (randomAdd.tet.title),
-                        imageSource: (randomAdd.tet.image),
-                        priceAmount: (randomAdd.tet.priceAmount),
+                        title: (randomAdd.randomAdd.title ?? ""),
+                        imageSource: (randomAdd.randomAdd.image ?? ""),
+                        priceAmount: (randomAdd.randomAdd.priceAmount ?? 0),
                         Advertising: ("Advertising"),
                         showAddLabel: true
                     )

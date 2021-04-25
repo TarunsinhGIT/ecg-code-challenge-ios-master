@@ -10,32 +10,21 @@ import Foundation
 import Advertisement
 import Combine
 
-struct RandomAddModel: Identifiable {
-    let id = UUID()
-    var adId: String
-    var title: String
-    var image: String
-    var priceAmount: Int
-}
+/// Model for Random Advertising
 struct AddModel: Decodable {
-    let adID, title: String?
+    let adId, title: String?
     let image: String?
     let priceAmount: Int?
 }
 
+/// Get Random Advertising from Custom framework and decode into local model and make them observable
 class RandomAdd: ObservableObject {
-
     let didChange = PassthroughSubject<Void, Never>()
     var customAdd = CustomAdd()
-    var tet = RandomAddModel(adId: "Add123", title: "AddTitle", image: "", priceAmount: 123) { didSet {}}
-    
+    var randomAdd = AddModel(adId: "NoAdd123", title: "No Add", image: "", priceAmount: 000) { didSet {}}
     func setobj(){
         customAdd.getRandomAdvertisement(completion: {(result) in
-            print(result)
-            let model = try! JSONDecoder().decode(AddModel.self, from: result)
-//            self.tet = RandomAddModel(adId: "212", title: "232323", image: "", priceAmount: 5)
-            self.tet = RandomAddModel(adId: model.adID ?? "", title: model.title ?? "", image: model.image ?? "", priceAmount: model.priceAmount ?? 0)
-
+            self.randomAdd = try! JSONDecoder().decode(AddModel.self, from: result)
         })
     }
 }
