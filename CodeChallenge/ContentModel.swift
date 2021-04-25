@@ -1,8 +1,8 @@
 import SwiftUI
 import Combine
+import Advertisement
 
 class ContentModel: ObservableObject {
-
     @Published private(set) var result: Result<AdsResponse, AdsResponseError>?
 
     func fetch() {

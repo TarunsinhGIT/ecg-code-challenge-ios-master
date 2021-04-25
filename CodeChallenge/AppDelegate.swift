@@ -1,4 +1,5 @@
 import UIKit
+import Advertisement
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

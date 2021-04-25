@@ -18,8 +18,9 @@
 		524840CC25F9321500EEECC7 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524840CB25F9321500EEECC7 /* API.swift */; };
 		524840D125F9413000EEECC7 /* AdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524840D025F9413000EEECC7 /* AdView.swift */; };
 		524840D625F9415D00EEECC7 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524840D525F9415D00EEECC7 /* ContentModel.swift */; };
-		8DCA58AD262E6514009D62A4 /* Advertisement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCA58AB262E6508009D62A4 /* Advertisement.framework */; };
-		8DCA58AE262E6514009D62A4 /* Advertisement.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCA58AB262E6508009D62A4 /* Advertisement.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D83300A2630EA0800FD0ACF /* RandomAddModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8330092630EA0800FD0ACF /* RandomAddModel.swift */; };
+		8DDD619526361802001169E1 /* Advertisement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDD6191263617E3001169E1 /* Advertisement.framework */; };
+		8DDD619626361802001169E1 /* Advertisement.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDD6191263617E3001169E1 /* Advertisement.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +47,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8DCA58AE262E6514009D62A4 /* Advertisement.framework in Embed Frameworks */,
+				8DDD619626361802001169E1 /* Advertisement.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,7 +72,8 @@
 		524840CB25F9321500EEECC7 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		524840D025F9413000EEECC7 /* AdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdView.swift; sourceTree = "<group>"; };
 		524840D525F9415D00EEECC7 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
-		8DCA58AB262E6508009D62A4 /* Advertisement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Advertisement.framework; sourceTree = "<group>"; };
+		8D8330092630EA0800FD0ACF /* RandomAddModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAddModel.swift; sourceTree = "<group>"; };
+		8DDD6191263617E3001169E1 /* Advertisement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Advertisement.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DCA58AD262E6514009D62A4 /* Advertisement.framework in Frameworks */,
+				8DDD619526361802001169E1 /* Advertisement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +105,7 @@
 		5248408925F9315800EEECC7 = {
 			isa = PBXGroup;
 			children = (
-				8DCA58AB262E6508009D62A4 /* Advertisement.framework */,
+				8DDD6191263617E3001169E1 /* Advertisement.framework */,
 				5248409425F9315800EEECC7 /* CodeChallenge */,
 				524840AB25F9315A00EEECC7 /* CodeChallengeTests */,
 				524840B625F9315A00EEECC7 /* CodeChallengeUITests */,
@@ -128,6 +130,7 @@
 				524840CB25F9321500EEECC7 /* API.swift */,
 				5248409525F9315800EEECC7 /* AppDelegate.swift */,
 				5248409B25F9315A00EEECC7 /* Assets.xcassets */,
+				8D8330092630EA0800FD0ACF /* RandomAddModel.swift */,
 				524840D525F9415D00EEECC7 /* ContentModel.swift */,
 				5248409925F9315800EEECC7 /* ContentView.swift */,
 				524840A325F9315A00EEECC7 /* Info.plist */,
@@ -295,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D83300A2630EA0800FD0ACF /* RandomAddModel.swift in Sources */,
 				524840D125F9413000EEECC7 /* AdView.swift in Sources */,
 				5248409625F9315800EEECC7 /* AppDelegate.swift in Sources */,
 				5248409825F9315800EEECC7 /* SceneDelegate.swift in Sources */,
@@ -474,6 +478,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CodeChallenge",
+					"$(PROJECT_DIR)/Debug-universal",
 				);
 				INFOPLIST_FILE = CodeChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -498,6 +504,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CodeChallenge",
+					"$(PROJECT_DIR)/Debug-universal",
 				);
 				INFOPLIST_FILE = CodeChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

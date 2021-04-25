@@ -6,6 +6,9 @@ struct AdView: View {
     var title: String
     var imageSource: String
     var priceAmount: Int
+    var Advertising
+: String
+
 
     @State private var image: UIImage?
     @State private var task: AnyCancellable?
@@ -29,10 +32,21 @@ struct AdView: View {
                     .fill(Color.gray)
                     .frame(width: 100, height: 100)
             }
+            
             VStack(alignment: .leading, spacing: 10) {
-                Text(title)
-                    .bold()
-                Text("\(priceAmount) EUR")
+                HStack(alignment: .top){
+                    Text(title)
+                        .bold()
+                    Spacer()
+                    Text(Advertising
+)
+                        .padding()
+                        .background(Color.green)
+                        .frame(height: 30.0)
+                        .clipShape(Capsule())
+                }
+                   Text("\(priceAmount) EUR")
+               
             }
             Spacer()
         }

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Advertisement-Swift.h</key>
 		<data>
-		mlCEezI4uhsdecl8abNuBxPaP9c=
+		D3HFtpuX1LFYsPv8SgrHo8w7lpI=
 		</data>
 		<key>Headers/Advertisement.h</key>
 		<data>
@@ -16,29 +16,53 @@
 		<data>
 		GDrTseDf+DNLNnCaLnVkxC1OUJs=
 		</data>
+		<key>Modules/Advertisement.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		et1KGOkRwQR74ugJxvy7Hectwn4=
+		</data>
+		<key>Modules/Advertisement.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<data>
+		et1KGOkRwQR74ugJxvy7Hectwn4=
+		</data>
 		<key>Modules/Advertisement.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		1bZn+rWTxi/bC19NpqFdFlSP100=
+		OmwIh+VGyr5pxjfIGPobLYp2hWM=
 		</data>
 		<key>Modules/Advertisement.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		1bZn+rWTxi/bC19NpqFdFlSP100=
+		OmwIh+VGyr5pxjfIGPobLYp2hWM=
+		</data>
+		<key>Modules/Advertisement.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		Muz15A1iaKdEZNRq3a01cEVilCE=
+		</data>
+		<key>Modules/Advertisement.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		O9yknhlnKMmwKrtn4nMj1B4tW1g=
+		</data>
+		<key>Modules/Advertisement.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		Muz15A1iaKdEZNRq3a01cEVilCE=
+		</data>
+		<key>Modules/Advertisement.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		O9yknhlnKMmwKrtn4nMj1B4tW1g=
 		</data>
 		<key>Modules/Advertisement.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ZKcEVCnHATtCaPAKN9nOTXhA6bA=
+		9kbWv38wd/b/F80IaF2rM29Lxnc=
 		</data>
 		<key>Modules/Advertisement.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1TMxTYAISjllLmCRMDqxiiu6fH4=
+		uRC2XoM1om76U3RIoHUTS9VcYn4=
 		</data>
 		<key>Modules/Advertisement.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		ZKcEVCnHATtCaPAKN9nOTXhA6bA=
+		9kbWv38wd/b/F80IaF2rM29Lxnc=
 		</data>
 		<key>Modules/Advertisement.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		1TMxTYAISjllLmCRMDqxiiu6fH4=
+		uRC2XoM1om76U3RIoHUTS9VcYn4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qj9JmwXI3ZZtYzHFVkqqLKjnXBy1b9iEIN0eliX1Fx0=
+			DGCoTQFyDxEV08JN+m1KDnLyaO/QFnbaeJKgoBJ65KM=
 			</data>
 		</dict>
 		<key>Headers/Advertisement.h</key>
@@ -61,46 +85,88 @@
 			tlRrqH7kVmwnq5sEP/bnjX3tZDFPrLPRXGeMS24+uT4=
 			</data>
 		</dict>
+		<key>Modules/Advertisement.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jBBa3ecf+c0jGLeQmrtVPE/nE9ET5UFegcAaduPRW8M=
+			</data>
+		</dict>
+		<key>Modules/Advertisement.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jBBa3ecf+c0jGLeQmrtVPE/nE9ET5UFegcAaduPRW8M=
+			</data>
+		</dict>
 		<key>Modules/Advertisement.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iCnErfBKWO8ebisL7vU2ANRMR3DhDK5vBzsQN5uo+gU=
+			kSHxiWxMgTwLHq1Ah+1gOG/sujh4iSFp5OZPZPc7gOA=
 			</data>
 		</dict>
 		<key>Modules/Advertisement.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iCnErfBKWO8ebisL7vU2ANRMR3DhDK5vBzsQN5uo+gU=
+			kSHxiWxMgTwLHq1Ah+1gOG/sujh4iSFp5OZPZPc7gOA=
+			</data>
+		</dict>
+		<key>Modules/Advertisement.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wsTRe2SEBKn0y+4UDDES6pl1rf1Ilk9Bw9TueulJ3i8=
+			</data>
+		</dict>
+		<key>Modules/Advertisement.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Aul8YZsHKRErF5mW+8TsvMsH0akNyBhMg3nmFMyEbX4=
+			</data>
+		</dict>
+		<key>Modules/Advertisement.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wsTRe2SEBKn0y+4UDDES6pl1rf1Ilk9Bw9TueulJ3i8=
+			</data>
+		</dict>
+		<key>Modules/Advertisement.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Aul8YZsHKRErF5mW+8TsvMsH0akNyBhMg3nmFMyEbX4=
 			</data>
 		</dict>
 		<key>Modules/Advertisement.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vrGwU5SGDMnZDy2z9pYLAt3zJt37wlvqnVyocChb1Yg=
+			0XCSaVXzgtmJxfX9gtPo7osm09kO5YWloEZqGSUS9VY=
 			</data>
 		</dict>
 		<key>Modules/Advertisement.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+9OvFHoziyGJhEFGYPmfrHQIgm2joo8PLPDI/YZnTXU=
+			vC2W+Kj2X9OyDWthS870dA/FR57wtqycges2kught7M=
 			</data>
 		</dict>
 		<key>Modules/Advertisement.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vrGwU5SGDMnZDy2z9pYLAt3zJt37wlvqnVyocChb1Yg=
+			0XCSaVXzgtmJxfX9gtPo7osm09kO5YWloEZqGSUS9VY=
 			</data>
 		</dict>
 		<key>Modules/Advertisement.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+9OvFHoziyGJhEFGYPmfrHQIgm2joo8PLPDI/YZnTXU=
+			vC2W+Kj2X9OyDWthS870dA/FR57wtqycges2kught7M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
