@@ -6,10 +6,8 @@ struct AdView: View {
     var title: String
     var imageSource: String
     var priceAmount: Int
-    var Advertising
-: String
-
-
+    var Advertising: String
+    @State var showAddLabel = true
     @State private var image: UIImage?
     @State private var task: AnyCancellable?
 
@@ -38,12 +36,17 @@ struct AdView: View {
                     Text(title)
                         .bold()
                     Spacer()
-                    Text(Advertising
-)
-                        .padding()
-                        .background(Color.green)
-                        .frame(height: 30.0)
-                        .clipShape(Capsule())
+                    if self.showAddLabel {
+                        Text(Advertising)
+                            .padding()
+                            .background(Color.green)
+                            .frame(height: 30.0)
+                            .clipShape(Capsule())
+                        
+                    } else {
+                        Text(Advertising)
+                            .hidden()
+                    }
                 }
                    Text("\(priceAmount) EUR")
                

@@ -3,7 +3,7 @@ import Combine
 import Advertisement
 
 struct ContentView: View {
-
+    
     @StateObject var model: ContentModel
     @ObservedObject var randomAdd = RandomAdd()
     var body: some View {
@@ -14,10 +14,10 @@ struct ContentView: View {
                     randomAdd.setobj()
                     model.fetch()
                 }
-
+            
         case .failure:
             Text("Error")
-
+            
         case .success(let response):
             ScrollView(.vertical, showsIndicators: true) {
                 LazyVStack {
@@ -25,16 +25,16 @@ struct ContentView: View {
                         title: (randomAdd.tet.title),
                         imageSource: (randomAdd.tet.image),
                         priceAmount: (randomAdd.tet.priceAmount),
-                        Advertising
-: ("Advertising")
+                        Advertising: ("Advertising"),
+                        showAddLabel: true
                     )
                     ForEach(response.items, id: \.self) { item in
                         AdView(
                             title: item.title,
                             imageSource: item.image,
                             priceAmount: item.priceAmount,
-                            Advertising
-: ""
+                            Advertising: (""),
+                            showAddLabel: false
                         )
                     }
                 }
