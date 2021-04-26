@@ -11,8 +11,8 @@ struct ContentView: View {
         case .none:
             Text("Loading")
                 .onAppear {
-                    randomAdd.setobj()//Calling Random Advertising framework 
                     model.fetch()
+                    randomAdd.setobj()//Calling Random Advertising framework
                 }
             
         case .failure:
