@@ -21,6 +21,7 @@
 		8D83300A2630EA0800FD0ACF /* RandomAddModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8330092630EA0800FD0ACF /* RandomAddModel.swift */; };
 		8DAA6150263765DC00ABA82B /* Advertisement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAA614E263765D000ABA82B /* Advertisement.framework */; };
 		8DAA6151263765DC00ABA82B /* Advertisement.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAA614E263765D000ABA82B /* Advertisement.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DAA616F2638B2DD00ABA82B /* RandomAddModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA616E2638B2DD00ABA82B /* RandomAddModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		524840D525F9415D00EEECC7 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		8D8330092630EA0800FD0ACF /* RandomAddModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAddModel.swift; sourceTree = "<group>"; };
 		8DAA614E263765D000ABA82B /* Advertisement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Advertisement.framework; sourceTree = "<group>"; };
+		8DAA616E2638B2DD00ABA82B /* RandomAddModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAddModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			children = (
 				524840AC25F9315A00EEECC7 /* CodeChallengeTests.swift */,
 				524840AE25F9315A00EEECC7 /* Info.plist */,
+				8DAA616E2638B2DD00ABA82B /* RandomAddModelTests.swift */,
 			);
 			path = CodeChallengeTests;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DAA616F2638B2DD00ABA82B /* RandomAddModelTests.swift in Sources */,
 				524840AD25F9315A00EEECC7 /* CodeChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
