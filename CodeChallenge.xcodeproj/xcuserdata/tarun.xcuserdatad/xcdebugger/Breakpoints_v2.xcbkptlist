@@ -7,22 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E441EEC8-F03C-46BF-9917-74E2BF5EE74A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CodeChallenge/ContentView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "794A90D0-1E64-49BD-B58E-A53711797280"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -103,22 +87,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "AD6E57FC-7315-4302-AFE3-C2B6C290D0B9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CodeChallenge/RandomAddModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "setobj()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "C3013205-EFBB-4448-A596-74E132AE7FCB"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -126,102 +94,42 @@
             filePath = "CodeChallenge/RandomAddModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "RandomAdd"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "C3013205-EFBB-4448-A596-74E132AE7FCB - e46a87af879b0574"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CodeChallenge.RandomAdd.randomAdd.didset : CodeChallenge.AddModel"
-                  moduleName = "CodeChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tarun/Desktop/eBay/Main/CodeChallenge/RandomAddModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  uuid = "C3013205-EFBB-4448-A596-74E132AE7FCB - 8ee0a33338ded642"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CodeChallenge.RandomAdd.randomAdd.getter : CodeChallenge.AddModel"
-                  moduleName = "CodeChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tarun/Desktop/eBay/Main/CodeChallenge/RandomAddModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "210">
-               </Location>
-               <Location
-                  uuid = "C3013205-EFBB-4448-A596-74E132AE7FCB - d493c25c060e2e26"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CodeChallenge.RandomAdd.randomAdd.setter : CodeChallenge.AddModel"
-                  moduleName = "CodeChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tarun/Desktop/eBay/Main/CodeChallenge/RandomAddModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "235">
-               </Location>
-               <Location
-                  uuid = "C3013205-EFBB-4448-A596-74E132AE7FCB - d7f918c1b245317d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CodeChallenge.RandomAdd.randomAdd.modify : CodeChallenge.AddModel"
-                  moduleName = "CodeChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tarun/Desktop/eBay/Main/CodeChallenge/RandomAddModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "22">
-               </Location>
-               <Location
-                  uuid = "C3013205-EFBB-4448-A596-74E132AE7FCB - 254769f520f1da3b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CodeChallenge.RandomAdd.randomAdd.modify : CodeChallenge.AddModel with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "CodeChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tarun/Desktop/eBay/Main/CodeChallenge/RandomAddModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "10">
-               </Location>
-               <Location
-                  uuid = "C3013205-EFBB-4448-A596-74E132AE7FCB - 44c1261bf8425b9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CodeChallenge.RandomAdd.init() -&gt; CodeChallenge.RandomAdd"
-                  moduleName = "CodeChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tarun/Desktop/eBay/Main/CodeChallenge/RandomAddModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "196">
-               </Location>
-            </Locations>
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getRandomAdvertisement()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3AE8757-3971-4FA6-80CA-D7A86410EBDB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CodeChallenge/RandomAddModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getRandomAdvertisement()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7A067BB-B1B1-433D-AE71-77E10609AEBA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CodeChallenge/RandomAddModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getRandomAdvertisement()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

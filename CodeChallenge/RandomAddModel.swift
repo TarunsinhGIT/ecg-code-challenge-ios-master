@@ -19,13 +19,15 @@ struct AddModel: Decodable {
 
 /// Get Random Advertising from Custom framework and decode into local model and make them observable
 class RandomAdd: ObservableObject {
+    @Published var randomAdd = AddModel(adId: "Add123", title: "No Add", image: "", priceAmount: 000)
+
     let didChange = PassthroughSubject<Void, Never>()
     var customAdd = CustomAdd()
-    var randomAdd = AddModel(adId: "NoAdd123", title: "No Add", image: "", priceAmount: 000) { didSet {}}
-    func setobj(){
+    func getRandomAdvertisement(){
         customAdd.getRandomAdvertisement(completion: {(result) in
-            self.randomAdd = try! JSONDecoder().decode(AddModel.self, from: result)
+            DispatchQueue.main.async {
+                self.randomAdd = try! JSONDecoder().decode(AddModel.self, from: result)
+            }
         })
     }
 }
-

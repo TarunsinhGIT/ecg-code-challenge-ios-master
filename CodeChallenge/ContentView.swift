@@ -12,7 +12,7 @@ struct ContentView: View {
             Text("Loading")
                 .onAppear {
                     model.fetch()
-                    randomAdd.setobj()//Calling Random Advertising framework
+                    randomAdd.getRandomAdvertisement()//Calling Random Advertising framework
                 }
             
         case .failure:
